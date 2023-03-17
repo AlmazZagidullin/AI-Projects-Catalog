@@ -269,21 +269,6 @@ abbr[title] {
     cursor: help;
     text-decoration: none;
 }
-kbd {
-    background: #303742;
-    border-radius: 0rem;
-    color: #fff;
-    font-size: 0.7rem;
-    line-height: 1.25;
-    padding: 0.1rem 0.2rem;
-}
-mark {
-    background: #ffe9b3;
-    border-bottom: 0.05rem solid #ffd367;
-    border-radius: 0rem;
-    color: #3b4351;
-    padding: 0.05rem 0.1rem 0;
-}
 
 ol,
 ul {
@@ -968,112 +953,6 @@ legend {
         opacity: 1;
         transform: translateY(0);
     }
-}
-.text-primary {
-    color: #5755d9 !important;
-}
-a.text-primary:focus,
-a.text-primary:hover {
-    color: #4240d4;
-}
-a.text-primary:visited {
-    color: #6c6ade;
-}
-.text-secondary {
-    color: #e5e5f9 !important;
-}
-a.text-secondary:focus,
-a.text-secondary:hover {
-    color: #d1d0f4;
-}
-a.text-secondary:visited {
-    color: #fafafe;
-}
-.text-gray {
-    color: #bcc3ce !important;
-}
-a.text-gray:focus,
-a.text-gray:hover {
-    color: #adb6c4;
-}
-a.text-gray:visited {
-    color: #cbd0d9;
-}
-.text-light {
-    color: #fff !important;
-}
-a.text-light:focus,
-a.text-light:hover {
-    color: #f2f2f2;
-}
-a.text-light:visited {
-    color: #fff;
-}
-.text-dark {
-    color: #3b4351 !important;
-}
-a.text-dark:focus,
-a.text-dark:hover {
-    color: #303742;
-}
-a.text-dark:visited {
-    color: #455060;
-}
-.text-success {
-    color: #32b643 !important;
-}
-a.text-success:focus,
-a.text-success:hover {
-    color: #2da23c;
-}
-a.text-success:visited {
-    color: #39c94b;
-}
-.text-warning {
-    color: #ffb700 !important;
-}
-a.text-warning:focus,
-a.text-warning:hover {
-    color: #e6a500;
-}
-a.text-warning:visited {
-    color: #ffbe1a;
-}
-.text-error {
-    color: #e85600 !important;
-}
-a.text-error:focus,
-a.text-error:hover {
-    color: #cf4d00;
-}
-a.text-error:visited {
-    color: #ff6003;
-}
-.bg-primary {
-    background: #5755d9 !important;
-    color: #fff;
-}
-.bg-secondary {
-    background: #f1f1fc !important;
-}
-.bg-dark {
-    background: #303742 !important;
-    color: #fff;
-}
-.bg-gray {
-    background: #f7f8f9 !important;
-}
-.bg-success {
-    background: #32b643 !important;
-    color: #fff;
-}
-.bg-warning {
-    background: #ffb700 !important;
-    color: #fff;
-}
-.bg-error {
-    background: #e85600 !important;
-    color: #fff;
 }
 .c-hand {
     cursor: pointer;
