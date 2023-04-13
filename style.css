@@ -228,7 +228,7 @@ h3,
 h4,
 h5,
 h6::hover {
-    color: #62c569;
+    color: ##d94bdb;
 }
 
 .h1,
@@ -1450,6 +1450,7 @@ a.active {
     margin: 0;
     min-height: min-content;
     padding-bottom: 1rem;
+    margin-top: 2.2rem;
 }
 
 .sidebar .nav img {
@@ -1468,7 +1469,7 @@ a.active {
 }
 
 .sidebar .nav .nav-text {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.5;
     margin: 0;
 }
@@ -1667,8 +1668,8 @@ a.active {
 
 .article-post h2:hover a,
 .article-post h3:hover a {
-    color: #62c569 !important;
-    background: #62c569;
+    color: #d94bdb !important;
+    background: #d94bdb;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .3s in-ear-out;
@@ -1684,6 +1685,8 @@ a.active {
 }
 
 .article-post .article-title {
+    font-family: "Space Grotesk";
+    font-weight: 400;
     font-size: 1.1rem;
     padding: .8rem 0 0 0;
     font-weight: 300;
@@ -1756,6 +1759,12 @@ a.active {
     transition: 0.2s ease-in-out;
     background: #fff;
 }
+
+.article-post img:hover {
+    box-shadow: 8px 8px 1px #ccc;
+    -webkit-box-shadow: 8px 8px 1px #ccc;
+    -moz-box-shadow: 8px 8px 1px #ccc;
+}   
 
 .sidebar {
     height: 100vh;
