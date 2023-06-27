@@ -796,6 +796,14 @@ legend {
     flex: 1 0 0;
     -ms-flex-align: center;
 }
+
+.navbar .navbar-section-writeus {
+    align-items: center;
+    display: flex;
+    display: -ms-flexbox;
+    -ms-flex-align: center;
+}
+
 .navbar .navbar-section:not(:first-child):last-child {
     -ms-flex-pack: end;
     justify-content: flex-end;
@@ -1695,7 +1703,7 @@ a.active {
 }
 
 .writeustext {
-    font-size: 12px;
+    font-size: 16px;
     color: #FF3D00;
 }
 
