@@ -228,7 +228,7 @@ h3,
 h4,
 h5,
 h6::hover {
-    color: ##d94bdb;
+    color: ##FF3D00;
 }
 
 .h1,
@@ -1425,7 +1425,7 @@ a.active {
 }
 
 .header a {
-    color: #d94bdb;
+    color: #FF3D00;
 }
 
 .navbar {
@@ -1475,7 +1475,7 @@ a.active {
 }
 
 .sidebar .nav .nav-text:hover {
-    color: #d94bdb;
+    color: #FF3D00;
 }
 
 .sidebar .nav-item img.nav-icon {
@@ -1498,7 +1498,7 @@ a.active {
 }
 
 .sidebar .nav .nav-item a:hover {
-    color: #d94bdb !important;
+    color: #FF3D00 !important;
 }
 
 .sidebar .nav .nav-item {
@@ -1550,6 +1550,16 @@ a.active {
     font-size: 15px;
     border-style: solid;
     border-color: #fff;
+}
+
+.submit-2 {
+    float: right;
+    margin-top: 36px;
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FF3D00;
+    vertical-align: middle;
 }
 
 .submit a {
@@ -1606,7 +1616,7 @@ a.active {
 .bookmark-title a:after {
     content: "";
     height: 2px;
-    background: #d94bdb;
+    background: #FF3D00;
     width: 100%;
     position: absolute;
     bottom: -5px;
@@ -1624,8 +1634,8 @@ a.active {
 }
 
 .list .bookmark-title span {
-    color: #d94bdb !important;
-    background: #d94bdb;
+    color: #FF3D00 !important;
+    background: #FF3D00;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1635,8 +1645,8 @@ a.active {
 }
 
 .bookmark-title:hover a {
-    color: #d94bdb !important;
-    background: #d94bdb;
+    color: #FF3D00 !important;
+    background: #FF3D00;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -1668,8 +1678,8 @@ a.active {
 
 .article-post h2:hover a,
 .article-post h3:hover a {
-    color: #d94bdb !important;
-    background: #d94bdb;
+    color: #FF3D00 !important;
+    background: #FF3D00;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: .3s in-ear-out;
@@ -1682,6 +1692,11 @@ a.active {
 .article-post:hover p {
     color: #fff;
     transition: all .2s ease;
+}
+
+.writeustext {
+    font-size: 12px;
+    color: #FF3D00;
 }
 
 .article-post .article-title {
@@ -1761,9 +1776,7 @@ a.active {
 }
 
 .article-post img:hover {
-    box-shadow: 8px 8px 1px #ccc;
-    -webkit-box-shadow: 8px 8px 1px #ccc;
-    -moz-box-shadow: 8px 8px 1px #ccc;
+    border: 5px solid #FF3D00;
 }   
 
 .sidebar {
@@ -1795,7 +1808,7 @@ a.active {
 }
 
 .bookmark-footer a {
-    color: #d94bdb !important;
+    color: #FF3D00 !important;
     padding: 3px 0 !important;
     display: flex;
     align-items: center;
